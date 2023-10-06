@@ -1,0 +1,22 @@
+description: "ISSI catalog"
+
+sources:
+
+  CCF:
+    description: Cloud controlling factors
+    args:
+      path: https://raw.githubusercontent.com/ISSI-CONSTRAIN/cloud_controlling_factors/main/catalog.yaml
+    driver: yaml_file_cat
+    metadata: {}
+  ISCCP:
+    description: ISCCP datasets
+    args:
+      path: https://raw.githubusercontent.com/ISSI-CONSTRAIN/isccp/main/catalog.yaml
+    driver: yaml_file_cat
+    metadata: {}
+  EUREC4A:
+    description: EUREC4A catalog
+    args:
+      path: https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/catalog.yml
+    driver: yaml_file_cat
+    metadata: {}
