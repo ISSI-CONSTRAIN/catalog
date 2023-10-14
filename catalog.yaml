@@ -20,7 +20,7 @@ sources:
       path: https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/catalog.yml
     driver: yaml_file_cat
     metadata: {}
-  MPI-TCO:
+  MPI_TCO:
     description: Tropical Clooud Observation groups catalog at MPI, including Barbados Cloud Observatory data
     args:
       path: https://tcodata.mpimet.mpg.de/catalog.yaml
