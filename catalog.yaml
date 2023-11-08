@@ -21,7 +21,7 @@ sources:
     driver: yaml_file_cat
     metadata: {}
   MPI_TCO:
-    description: Tropical Clooud Observation groups catalog at MPI, including Barbados Cloud Observatory data
+    description: Tropical Cloud Observation groups catalog at MPI, including Barbados Cloud Observatory data
     args:
       path: https://tcodata.mpimet.mpg.de/catalog.yaml
     driver: yaml_file_cat
