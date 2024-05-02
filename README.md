@@ -1,6 +1,12 @@
 # Data catalog
 Root catalog of external and internal datasets
 
+## Install requirements
+
+```bash
+pip install "intake<2.0.0" xarray intake-xarray zarr pydap s3fs requests ipfsspec
+```
+
 ## Accessing datasets
 ```python
 import intake
