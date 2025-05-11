@@ -32,3 +32,10 @@ sources:
       path: https://raw.githubusercontent.com/ISSI-CONSTRAIN/meso-morphs/main/catalog/catalog.yaml
     driver: yaml_file_cat
     metadata: {}
+  SSTanoms:
+    driver: zarr
+    description: Mesoscale daily SST anomalies in the North Atlantic
+    args:
+      path: https://raw.githubusercontent.com/ISSI-CONSTRAIN/meso-morphs/main/catalog/catalog.yaml
+      consolidated: true
+    metadata: {}
