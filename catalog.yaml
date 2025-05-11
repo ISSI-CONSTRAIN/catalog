@@ -32,11 +32,16 @@ sources:
       path: https://raw.githubusercontent.com/ISSI-CONSTRAIN/meso-morphs/main/catalog/catalog.yaml
     driver: yaml_file_cat
     metadata: {}
-  SSTanoms:
+  SSTA_objs:
     driver: zarr
-    description: Mesoscale daily SST anomalies in the North Atlantic
+    description: Mesoscale daily SST anomaly objects in the North Atlantic from GOES-POES Blended analysis
     args:
-      path: https://swiftbrowser.dkrz.de/public/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTA_related/
-      # path: https://raw.githubusercontent.com/xychen-ocn/ISSI_data_catalog/refs/heads/main/catalog.yaml
+      path: https://swiftbrowser.dkrz.de/public/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTA_related/2018-2021_GPBLEND_SSTA_Objects.zarr
       consolidated: true
-    metadata: {}
+  SSTA_trajs:
+    driver: zarr
+    description: 24-hr lagrangian trajectories initiated over SST anomaly objects in the North Atlantic
+    args:
+      path: https://swiftbrowser.dkrz.de/public/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTA_related/2018-2021_GPBLEND_SSTA_24hrTrajs.zarr
+      consolidated: true
+    
