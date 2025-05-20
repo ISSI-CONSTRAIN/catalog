@@ -36,13 +36,13 @@ sources:
     driver: zarr
     description: Mesoscale daily SST anomaly objects in the North Atlantic from GOES-POES Blended analysis
     args:
-      urlpath: https://swiftbrowser.dkrz.de/v1/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTAs/2018-2021_GPBLEND_SSTA_Objects.zarr
+      urlpath: https://swiftbrowser.dkrz.de/public/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTAs/2018-2021_GPBLEND_SSTA_Objects.zarr
       consolidated: false
   SSTA_trajs:
     driver: zarr
     description: 24-hr lagrangian trajectories initiated over SST anomaly objects in the North Atlantic
     args:
-      urlpath: https://swiftbrowser.dkrz.de/v1/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTAs/2018-2021_GPBLEND_SSTA_24hrTrajs.zarr
+      urlpath: https://swiftbrowser.dkrz.de/public/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTAs/2018-2021_GPBLEND_SSTA_24hrTrajs.zarr
       consolidated: false
   SSTA_maps:
     driver: zarr
