@@ -50,10 +50,5 @@ sources:
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_a88749b4-3884-49bb-8c65-76571c660914/SSTAs/2018-2021_GPBLEND_SSTA_Maps.zarr
       consolidated: true
-  sample_wsat:
-    driver: zarr
-    description: Sample of Windsat data
-    args:
-      urlpath: https://swift.dkrz.de/v1/dkrz_a88749b4-3884-49bb-8c65-76571c660914/sample_wsat/windsat.zarr
-      consolidated: true
+  
     
