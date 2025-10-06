@@ -32,3 +32,9 @@ sources:
       path: https://raw.githubusercontent.com/ISSI-CONSTRAIN/meso-morphs/main/catalog/catalog.yaml
     driver: yaml_file_cat
     metadata: {}
+  SSTA:
+    description: SSTA datasets
+    args:
+      path: SSTA.yaml
+    driver: yaml_file_cat
+    metadata: {}
