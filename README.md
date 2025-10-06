@@ -23,6 +23,7 @@ ds2 = cat['ISCCP']['ISCCP_BASIC_HGM'].to_dask()
 ds3 = cat['MPI_TCO']['BCO']['surfacemet_wxt_v1'].to_dask()
 ds4 = cat['morphologies']['SGFF'].to_dask()
 ds5 = cat['CCF']['ERA5_CCF'].to_dask()
-
-ds7 = cat['Lagr_CERES'].to_dask()
+ds6 = cat['SSTA']['traj'].to_dask()
+ds7 = cat['Lagrangian_cloudmetrics'].to_dask()
+ds8 = cat['Lagrangian_CERES'].to_dask()
 ```
