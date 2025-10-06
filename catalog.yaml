@@ -32,9 +32,15 @@ sources:
       path: https://raw.githubusercontent.com/ISSI-CONSTRAIN/meso-morphs/main/catalog/catalog.yaml
     driver: yaml_file_cat
     metadata: {}
-  Lagr_cloudmetrics:
+  Lagrangian_cloudmetrics:
     driver: zarr
     description: Cloudmetrics along Lagrangian ERA5 trajectories in the North Atlantic
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_a88749b4-3884-49bb-8c65-76571c660914/NAtl_2018_2022_Lagrangian_cloud_metrics/Cloud_metrics_GOES16_ERA5_trajectories_DJF_2018_2022.zarr 
       consolidated: true
+  SSTA:
+    description: SSTA datasets
+    args:
+      path: SSTA.yaml
+    driver: yaml_file_cat
+    metadata: {}
